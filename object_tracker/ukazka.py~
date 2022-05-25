@@ -1,7 +1,0 @@
-from scipy.spatial import distance as dist
-import numpy as np
-random.seed(42)
-objectCentroids = np.random.uniform(size=(2, 2))
-centroids = np.random.uniform(size=(3, 2))
-D = dist.cdist(objectCentroids, centroids)
-D
